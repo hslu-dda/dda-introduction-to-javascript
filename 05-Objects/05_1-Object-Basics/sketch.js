@@ -43,6 +43,6 @@ console.log(akira)
 console.log(akira.genre[1])
 
 // ÜBUNG: Nutze den forEach loop um alle Genres auszugeben
-akira.genre.forEach(element => {
-    console.log(element)
+akira.genre.forEach(d => {
+    console.log(d)
 });

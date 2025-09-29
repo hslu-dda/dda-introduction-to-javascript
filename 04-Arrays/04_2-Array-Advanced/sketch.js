@@ -52,15 +52,25 @@ rappers.forEach(rapper => {
   console.log(rapper)
 });
 
+// with the index
+rappers.forEach((rapper, i) => {
+  console.log(rapper, i)
+})
+
 /*
 PART III: FILTERING
 -----------------------------------------------------------------*/
 
-// filter all rappers with a 'a' in the name
+// The filter() method creates a new array filled with elements that pass a test provided by a function.
 a_rappers = rappers.filter(rapper => {
   if (rapper.includes('a')){
     return rapper;
   }
 })
-
 console.log(a_rappers)
+
+// The find() method returns the value of the first element that passes a test.
+let fav = rappers.find(rapper => {
+  return rapper == 'Prodigy'
+})
+console.log(fav)
