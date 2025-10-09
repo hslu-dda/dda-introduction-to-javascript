@@ -3,7 +3,7 @@ let data;
 
 function setup() {
     createCanvas(800, 400);
-    d3.csv("./data/DDA25_Daten_Denkmal_Yael_Luis_Jony.csv").then((response) => {
+    d3.csv("./data/daten-denkmal.csv").then((response) => {
         // QUIZ: Welches Datenformat zeigt die Konsole an?
         console.log(response);
         // save the response in your global variable
