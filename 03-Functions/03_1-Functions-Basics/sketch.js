@@ -62,16 +62,49 @@ function calcSum(num1, num2){
     return sum;
 }
 
+// this way the result can be directly save in a variable
 let mySum = calcSum(10, 15);
 console.log(mySum)
 
 // ÜBUNG: Create a function "doubleNum" that calculates a number by 2
+// return the result and save it into a new variable
 function doubleNum(num){
     let result = num * 2;
     return result
 }
 let double = doubleNum(3476);
 console.log(double)
+
+/*
+VARIABLE SCOPE
+-----------------------------------------------------------------*/
+// The scope describes in which places of the code a variable is (un)known
+
+// global scope
+let x = 10;
+
+function myFunc(){
+    // local scope
+    let y = 20;
+    
+    // x and y is known
+    console.log(x, y);
+}
+
+// only x is know, y is local
+console.log(x, y);
+
+// this also means you can "reuse" variable names inside a function
+let array1 = [1, 2, 3, 4];
+array1.forEach(element => {
+    console.log(element)
+});
+
+let array2 = [5, 6, 7, 8]
+array2.forEach(element => {
+    // no conflict with the name "element"
+    console.log(element)    
+});
 
 /*
 BONUS: ARROW SYNTAX

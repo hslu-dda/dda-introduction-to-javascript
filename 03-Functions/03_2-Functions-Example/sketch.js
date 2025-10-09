@@ -8,6 +8,10 @@ function setup() {
     for (let i = 0; i < 100; i++) {
         drawFlower();
     }
+
+    textAlign(CENTER, CENTER);
+    textSize(12)
+    text("CODING IS LIKE ...", width/2, height/2)
 }
 
 function drawFlower() {
@@ -37,3 +41,6 @@ function drawGras() {
     // Draw a flower emoji.
     text("🌱", x, y);
 }
+
+// ÜBUNG: Create a third function that logs an emoji
+// that expressed your feelings towards code
