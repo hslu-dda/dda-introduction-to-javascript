@@ -1,5 +1,11 @@
-// with the new relase of p5js 2.0 you need to work with async/await
-// See here: https://beta.p5js.org/reference/p5/async_await/
+/*
+Data Design + Art, HSLU Lucerne
+Play 1, HS25
+with the new relase of p5js 2.0 you need to work with async/await
+See here: https://beta.p5js.org/reference/p5/async_await/
+*/
+
+
 
 let data1;
 let data2;

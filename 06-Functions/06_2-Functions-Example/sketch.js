@@ -1,3 +1,8 @@
+/*
+Data Design + Art, HSLU Lucerne
+Play 1, HS25
+*/
+
 function setup() {
     createCanvas(400, 400);
 

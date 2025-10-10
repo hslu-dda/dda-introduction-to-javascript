@@ -1,3 +1,8 @@
+/*
+Data Design + Art, HSLU Lucerne
+Play 1, HS25
+*/
+
 let data1 = [80, 150, 120, 250, 200, 300, 220, 350];
 let data2 = [100, 130, 180, 200, 240, 280, 260, 300];
 

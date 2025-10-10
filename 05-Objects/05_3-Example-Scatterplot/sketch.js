@@ -1,3 +1,8 @@
+/*
+Data Design + Art, HSLU Lucerne
+Play 1, HS25
+*/
+
 let data = [
     { title: "One Piece", time: 1997, sales: 516 },
     { title: "Naruto", time: 1999, sales: 250 },

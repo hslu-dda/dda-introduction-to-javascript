@@ -1,3 +1,8 @@
+/*
+Data Design + Art, HSLU Lucerne
+Play 1, HS25
+*/
+
 // global variable to store the loaded data
 let rawData;
 let data;
