@@ -1,4 +1,8 @@
-// See also: https://www.w3schools.com/js/js_functions.asp
+/*
+Data Design + Art, HSLU Lucerne
+Play 1, HS25
+See also: https://www.w3schools.com/js/js_functions.asp
+*/
 
 /*
 BASIC STRUCTURE

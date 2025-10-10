@@ -1,4 +1,8 @@
-// For alle Array Methods visit: https://www.w3schools.com/js/js_array_methods.asp
+/*
+Data Design + Art, HSLU Lucerne
+Play 1, HS25
+For alle Array Methods visit: https://www.w3schools.com/js/js_array_methods.asp
+*/
 
 // array definieren
 rappers = ["Denzel Curry", "Prodigy", "J. Cole", "Larry June", "Glorilla", "Lil Sims", "Wiley", "Stormzy", "JME", "Skepta"];
