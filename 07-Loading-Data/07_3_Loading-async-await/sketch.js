@@ -14,5 +14,4 @@ async function setup() {
 
   console.log(data1, data2)
 
-
 }
