@@ -7,9 +7,7 @@ For alle Array Methods visit: https://www.w3schools.com/js/js_array_methods.asp
 /*
 PART I: BASICS
 -----------------------------------------------------------------*/
-
-// array definieren
-rappers = ["Denzel Curry", "Prodigy", "J. Cole", "Larry June", "Glorilla", "Lil Sims", "Wiley", "Stormzy", "JME", "Skepta"];
+let rappers = ["Denzel Curry", "Prodigy", "J. Cole", "Larry June", "Glorilla", "Lil Sims", "Wiley", "Stormzy", "JME", "Skepta"];
 
 // array ausgeben
 console.log(rappers);
