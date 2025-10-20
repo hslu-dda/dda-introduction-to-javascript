@@ -68,4 +68,5 @@ If those commands print version numbers (e.g., `git version 2.x.x`), you’re go
 ## 5) Knowledge Ressources
 
 - For a simple introduction to Git that doesn't overcomplicate things, check out [Git for Dummies](https://www.youtube.com/watch?v=mJ-qvsxPHpY) (we don't think you are dumb obviously, git is just a very deep rabbithole 🐇).
+- For a Git Cheat Sheet see [here](https://education.github.com/git-cheat-sheet-education.pdf).
 - For a nice overview over the awesome capabilities of the Terminal we recommend [CLI for Artists + Designers](https://ffd8.github.io/cli-for-artists-and-designers/). 
