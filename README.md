@@ -4,10 +4,12 @@ Repository für den «Creative Coding» Kurs im Modul Play 1 mit Michael Flücki
 
 ### Curricula
 
-1. Introduction to Generative Design & Creative Coding
-2. VS Code setup, structuring programs, drawing fundamentals in P5js
-3. Variables, if/else, colors, randomness, for-loop
-4. Arrays
-5. Objects, Arrays of Objects
-6. Functioms
-7. Loading data
+0. Setup
+1. Basics
+2. Variablen
+3. Conditionals
+4. For
+5. Arrays
+6. Objects
+7. Functions
+8. Loading data
