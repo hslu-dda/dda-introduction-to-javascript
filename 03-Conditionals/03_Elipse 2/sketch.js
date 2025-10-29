@@ -15,7 +15,6 @@ function setup() {
 }
 
 function draw() {
-  // Clear the background on each frame
   background(255, 10);
 
   stroke(mycolor);
