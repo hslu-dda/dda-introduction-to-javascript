@@ -15,9 +15,7 @@ let data = [
 function setup() {
     createCanvas(800, 400);
     textAlign(CENTER, CENTER);
-}
 
-function draw() {
     background(240);
 
     // Axes
