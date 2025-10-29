@@ -27,6 +27,6 @@ function setup() {
 
 function draw() {
   //background(255);
-  fill(random(255), random(255), random(255));
-  circle(random(width), random(height), random(20, 200));
+  //fill(random(255), random(255), random(255));
+  //circle(random(width), random(height), random(20, 200));
 }
