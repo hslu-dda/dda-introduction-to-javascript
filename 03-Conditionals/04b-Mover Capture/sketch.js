@@ -3,6 +3,8 @@ let y = 0;
 let speedX = 5;
 let speedY = 2;
 
+let autostart = false;
+
 function setup() {
   createCanvas(800, 800);
   background(255);
@@ -17,6 +19,10 @@ function setup() {
 }
 
 function draw() {
+  if (autostart && frameCount == 1) {
+    const capture = P5Capture.getInstance();
+    capture.start();
+  }
   ellipse(x, y, 20);
   x = x + speedX;
   y = y + speedY;
