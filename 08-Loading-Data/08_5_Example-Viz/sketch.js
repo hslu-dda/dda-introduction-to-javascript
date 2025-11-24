@@ -33,8 +33,7 @@ function drawTemp() {
     console.log("Max Temp:", maxTemp, "Min. Temp", minTemp);
 
     // loop over the data
-    for (let i = 0; i < data.length; i++) {
-        const element = data[i];
+    data.forEach((element, i) => {
 
         // calculate x pos, spread evenly
         let x = map(i, 0, data.length - 1, 50, 1475);
@@ -63,7 +62,7 @@ function drawTemp() {
         noStroke();
         textSize(8);
         text(element.tmax, x + 5, y + 3);
-    }
+    });
 }
 
 function drawAxis() {
