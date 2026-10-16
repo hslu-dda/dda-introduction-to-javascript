@@ -1,12 +1,9 @@
 let fontSize = 100;
 let font2;
 
-function preload() {
-  font2 = loadFont("fonts/HennyPenny-Regular.ttf");
-}
-
-function setup() {
+async function setup() {
   createCanvas(800, 800);
+  font2 = await loadFont("fonts/HennyPenny-Regular.ttf");
 }
 
 function draw() {

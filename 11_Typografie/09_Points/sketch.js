@@ -1,13 +1,11 @@
 let font;
 let points;
 
-function preload() {
-  font = loadFont("assets/SpaceMono-Bold.ttf");
-}
-
-function setup() {
+async function setup() {
   createCanvas(windowWidth, windowHeight);
-  points = font.textToPoints("p5*js", 50, width / 2, 250, { sampleFactor: 0.1, simplifyThreshold: 0 });
+  font = await loadFont("assets/SpaceMono-Bold.ttf");
+  textSize(250);
+  points = font.textToPoints("p5*js", 50, width / 2, { sampleFactor: 0.1, simplifyThreshold: 0 });
 }
 
 function draw() {

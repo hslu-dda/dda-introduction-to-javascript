@@ -1,0 +1,13 @@
+﻿ID,Name Denkmal,Distanz,Freq. Denkmal,Sichtdistanz,Art Denkmal,Art def. Arch,Eigentum def. Arch,Störfaktor,Störfaktor Beschreibung,Absicht,Grund def. Arch.
+1,Jesuitenkirche,50,16-30,Ja,Kirche,Sitzgelegenheit,öffentlich,3,zu klein,nein,hinlegen verhindern
+2,Krienbrügglibrunnen,60,1-5,Ja,Brunnen,Sitzgelegenheit,privat,2,unbequem,nein,hinlegen verhindern
+3,Reussstegbrunnen,90,1-5,Nein,Brunnen,Sitzgelegenheit,privat,4,keine Sitzfläche,ja,hinlegen verhindern
+4,Anderallmendhaus,5,0,Ja,Haus,Sitzgelegenheit,öffentlich,4,zu klein,ja,hinlegen verhindern
+5,Spreuerbrücke,10,16-30,Ja,Brücke,Sitzgelegenheit,privat,3,zu klein,nein,hinlegen verhindern
+6,Neptunbrunnen,10,0,Ja,Brunnen,Abfall,öffentlich,5,gefährlich,ja,kein Abfall herausfischen
+7,Weinmarktbrunnen,90,0,Nein,Brunnen,Sitzgelegenheit,öffentlich,2,zu klein,nein,hinlegen verhindern
+8,Kapellbrücke,90,51+,Ja,Brücke,Sitzgelegenheit,öffentlich,2,zu klein,ja,hinlegen verhindern
+9,Matthäuskirche,70,1-5,Nein,Kirche,Sitzgelegenheit,privat,4,unbequem,ja,hinlegen verhindern
+10,Bourbaki,0,31-50,Ja,Haus,Abfall,öffentlich,3,unpraktisch,ja,kein Abfall herausfischen
+11,Löwendenkmal,130,51+,Nein,Denkmal,Sitzgelegenheit,privat,1,Schild,ja,hinlegen verhindern
+12,St Leodegar kirche,60,31-50,Ja,Kirche,Sitzgelegenheit,privat,2,zu klein,nein,hinlegen verhindern

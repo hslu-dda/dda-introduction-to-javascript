@@ -10,6 +10,11 @@ let data = [
     { title: "Attack on Titan", time: 2009, sales: 140 },
     { title: "Demon Slayer", time: 2016, sales: 150 },
     { title: "Jujutsu Kaisen", time: 2018, sales: 90 },
+    // Sales below are made up for demonstration
+    { title: "Ghost in the Shell", time: 1989, sales: 12 },
+    { title: "Battle Angel Alita", time: 1990, sales: 8 },
+    { title: "Blame!", time: 1998, sales: 3 },
+    { title: "Cowboy Bebop", time: 1999, sales: 2 },
 ];
 
 function setup() {

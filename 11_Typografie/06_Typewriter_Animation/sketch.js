@@ -7,12 +7,10 @@ let myText; // Will hold the loaded text as a single string
 let textCount = 0;
 let speed = 1;
 
-function preload() {
-  lines = loadStrings("text.txt"); // Load text file into an array (one element per line)
-}
-
-function setup() {
+async function setup() {
   createCanvas(1200, 1800);
+
+  lines = await loadStrings("text.txt"); // Load text file into an array (one element per line)
 
   // join() combines array elements into one string, preserving line breaks with "\n"
   myText = lines.join("\n");

@@ -1,7 +1,7 @@
 /*
 Data Design + Art, HSLU Lucerne
 Play 1, HS25
-with the new relase of p5js 2.0 you need to work with async/await
+p5js 2.0 does not have preload() anymore, you need to work with async/await
 See here: https://beta.p5js.org/reference/p5/async_await/
 */
 
@@ -20,8 +20,6 @@ async function setup() {
 }
 
 function draw() {
-    // still undefined at the beginning.
-    if (data1 && data2.length && data2 && data2.length) {
-        console.log(data1, data2);
-    }
+    // draw() starts after setup() is done, so the data is available
+    console.log(data1.length, data2.length);
 }

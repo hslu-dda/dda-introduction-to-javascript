@@ -34,12 +34,9 @@ let fonts = [
   "Trebuchet MS",
 ];
 
-function preload() {
-  myText = loadStrings("text.txt");
-}
-
-function setup() {
+async function setup() {
   createCanvas(1200, 1800);
+  myText = await loadStrings("text.txt");
   myText = myText.join("\n");
   textFont("Menlo");
   //randomnessScale = d3.scaleLinear().domain([0, 1]).range([0, 1]);

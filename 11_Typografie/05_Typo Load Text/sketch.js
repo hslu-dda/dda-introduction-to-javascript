@@ -4,12 +4,10 @@ let words; // Array to store each word
 let lines; // Array to store each line from the text file
 let myText; // Will hold the loaded text as a single string
 
-function preload() {
-  lines = loadStrings("text.txt"); // Load text file into an array (one element per line)
-}
-
-function setup() {
+async function setup() {
   createCanvas(1200, 1800);
+
+  lines = await loadStrings("text.txt"); // Load text file into an array (one element per line)
 
   // join() combines array elements into one string, preserving line breaks with "\n"
   myText = lines.join("\n");

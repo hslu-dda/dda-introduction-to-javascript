@@ -31,6 +31,38 @@ let mangas = [
         year: 2000,
         pages: 328
     },
+    {
+        title: "Cowboy Bebop",
+        author: "Yutaka Nanten",
+        "isbn-10": "1931514917",
+        genre: ["Sci-Fi", "Space Western", "Noir"],
+        year: 1999,
+        pages: 184
+    },
+    {
+        title: "Blame!",
+        author: "Tsutomu Nihei",
+        "isbn-10": "1595328343",
+        genre: ["Sci-Fi", "Cyberpunk", "Distopian"],
+        year: 1998,
+        pages: 256
+    },
+    {
+        title: "Battle Angel Alita",
+        author: "Yukito Kishiro",
+        "isbn-10": "1632365987",
+        genre: ["Sci-Fi", "Cyberpunk", "Action"],
+        year: 1990,
+        pages: 420
+    },
+    {
+        title: "Ghost in the Shell",
+        author: "Masamune Shirow",
+        "isbn-10": "1646516311",
+        genre: ["Sci-Fi", "Cyberpunk", "Police Thriller"],
+        year: 1989,
+        pages: 832
+    },
 ];
 
 // Ausgeben

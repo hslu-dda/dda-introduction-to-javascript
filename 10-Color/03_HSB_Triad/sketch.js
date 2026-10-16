@@ -90,7 +90,7 @@ function draw() {
   push();
   translate(width / 2, height / 2);
   rotate(angle3);
-  fill(color3, params.saturation, params.brightness);
+  fill(color3);
   circle(distFromCenter, 0, 20);
   pop();
 
