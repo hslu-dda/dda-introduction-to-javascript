@@ -5,10 +5,7 @@ Introduction to p5
 
 function setup() {
   createCanvas(400, 500);
-  noLoop(); // Statisches Bild
-}
 
-function draw() {
   // Dunkler Hintergrund
   background(30, 30, 40);
 
@@ -29,7 +26,7 @@ function draw() {
 
   // Bart
   fill(140, 110, 80);
-  arc(200, 235, 130, 110, 0, PI, PIE);
+  arc(200, 235, 130, 110, -0.12, PI + 0.12, PIE);
 
   // Haare
   fill(150, 120, 90);
@@ -68,7 +65,7 @@ function draw() {
   line(215, 220, 200, 220);
   noStroke();
 
-  // Augenlider (leicht geschlossen)
+  // Augenlider
   fill(230, 200, 180);
   arc(170, 180, 32, 20, PI, TWO_PI);
   arc(230, 180, 32, 20, PI, TWO_PI);
